@@ -6,13 +6,16 @@
   padding: 0;
 }
 
+.body{
+  background-color: rgb(43, 180, 226);
+}
 :root {
-  --base: #555;
-  --base-100: #f1f1f1;
+  --base: #555555;
+  --base-100: #0f290f;
   --yellow: #ffda4b;
   --yellow-100: #fffbe6;
   --blue: #0a61ae;
-  --blue-100: #e2f8ff;
+  --blue-100: #ec3072;
 }
 
 h1 {
@@ -68,6 +71,9 @@ header {
       font-size: 32px;
       height: 64px;
       width: 64px;
+      img{
+        width:30px;
+      }
     }
     .logo-text {
       flex: 1;
